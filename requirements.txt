@@ -128,3 +128,4 @@ zipp
 zstandard
 dj-database-url
 psycopg2-binary
+django-filter
