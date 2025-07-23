@@ -29,6 +29,10 @@ SECRET_KEY = 'django-insecure-r4paif4qfii0t*^!8_3tlpx&5z5fj9+3yq13y@q%oawp_^ee=@
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = [
+    'https://shopdrf-production.up.railway.app/','https://*.127.0.0.1',
+
+    ]
 
 
 # Application definition
@@ -71,6 +75,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3001",
     "http://localhost:3002",
+    
     # "http://127.0.0.1:3000",
 ]
 CORS_ORIGIN_ALLOW_ALL = True
