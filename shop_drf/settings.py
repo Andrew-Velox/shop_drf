@@ -76,7 +76,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3001",
     "http://localhost:3002",
-    "https://mew-shop-eight.vercel.app/",
+    "https://mew-shop-eight.vercel.app",
     
     # "http://127.0.0.1:3000",
 ]
