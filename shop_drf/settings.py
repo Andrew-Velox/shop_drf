@@ -30,7 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    'https://shopdrf-production.up.railway.app/','https://*.127.0.0.1',
+    'https://shopdrf-production.up.railway.app',
+    'https://*.127.0.0.1',
 
     ]
 
